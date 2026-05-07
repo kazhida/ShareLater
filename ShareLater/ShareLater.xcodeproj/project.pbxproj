@@ -9,16 +9,48 @@
 /* Begin PBXBuildFile section */
 		6B47F9A62FACBBD100A55D4C /* ShareLaterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B47F9A52FACBBD100A55D4C /* ShareLaterApp.swift */; };
 		6B47F9A82FACBBD100A55D4C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B47F9A72FACBBD100A55D4C /* ContentView.swift */; };
-		6B47F9AA2FACBBD100A55D4C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B47F9A92FACBBD100A55D4C /* Item.swift */; };
 		6B47F9AC2FACBBD200A55D4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B47F9AB2FACBBD200A55D4C /* Assets.xcassets */; };
+		6B4801012FACBBD300A55D4C /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802012FACBBD300A55D4C /* Note.swift */; };
+		6B4801022FACBBD300A55D4C /* NoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802022FACBBD300A55D4C /* NoteRepository.swift */; };
+		6B4801032FACBBD300A55D4C /* AddNoteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802032FACBBD300A55D4C /* AddNoteUseCase.swift */; };
+		6B4801042FACBBD300A55D4C /* DeleteNoteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802042FACBBD300A55D4C /* DeleteNoteUseCase.swift */; };
+		6B4801052FACBBD300A55D4C /* FetchNotesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802052FACBBD300A55D4C /* FetchNotesUseCase.swift */; };
+		6B4801062FACBBD300A55D4C /* UpdateNoteUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802062FACBBD300A55D4C /* UpdateNoteUseCase.swift */; };
+		6B4801072FACBBD300A55D4C /* SwiftDataNoteRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802072FACBBD300A55D4C /* SwiftDataNoteRecord.swift */; };
+		6B4801082FACBBD300A55D4C /* NoteLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802082FACBBD300A55D4C /* NoteLocalDataSource.swift */; };
+		6B4801092FACBBD300A55D4C /* NoteMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802092FACBBD300A55D4C /* NoteMapping.swift */; };
+		6B48010A2FACBBD300A55D4C /* NoteRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48020A2FACBBD300A55D4C /* NoteRepositoryImpl.swift */; };
+		6B48010B2FACBBD300A55D4C /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48020B2FACBBD300A55D4C /* NotesViewModel.swift */; };
+		6B48010C2FACBBD300A55D4C /* NotesViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48020C2FACBBD300A55D4C /* NotesViewModelFactory.swift */; };
+		6B48010D2FACBBD300A55D4C /* TriAheadsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48020D2FACBBD300A55D4C /* TriAheadsTheme.swift */; };
+		6B48010E2FACBBD300A55D4C /* NoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48020E2FACBBD300A55D4C /* NoteRowView.swift */; };
+		6B48010F2FACBBD300A55D4C /* NoteEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B48020F2FACBBD300A55D4C /* NoteEditView.swift */; };
+		6B4801102FACBBD300A55D4C /* LicensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802102FACBBD300A55D4C /* LicensesView.swift */; };
+		6B4801112FACBBD300A55D4C /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4802112FACBBD300A55D4C /* NoteListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B47F9A22FACBBD100A55D4C /* ShareLater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareLater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B47F9A52FACBBD100A55D4C /* ShareLaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLaterApp.swift; sourceTree = "<group>"; };
 		6B47F9A72FACBBD100A55D4C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		6B47F9A92FACBBD100A55D4C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		6B47F9AB2FACBBD200A55D4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B4802012FACBBD300A55D4C /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		6B4802022FACBBD300A55D4C /* NoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRepository.swift; sourceTree = "<group>"; };
+		6B4802032FACBBD300A55D4C /* AddNoteUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteUseCase.swift; sourceTree = "<group>"; };
+		6B4802042FACBBD300A55D4C /* DeleteNoteUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNoteUseCase.swift; sourceTree = "<group>"; };
+		6B4802052FACBBD300A55D4C /* FetchNotesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchNotesUseCase.swift; sourceTree = "<group>"; };
+		6B4802062FACBBD300A55D4C /* UpdateNoteUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateNoteUseCase.swift; sourceTree = "<group>"; };
+		6B4802072FACBBD300A55D4C /* SwiftDataNoteRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataNoteRecord.swift; sourceTree = "<group>"; };
+		6B4802082FACBBD300A55D4C /* NoteLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteLocalDataSource.swift; sourceTree = "<group>"; };
+		6B4802092FACBBD300A55D4C /* NoteMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteMapping.swift; sourceTree = "<group>"; };
+		6B48020A2FACBBD300A55D4C /* NoteRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRepositoryImpl.swift; sourceTree = "<group>"; };
+		6B48020B2FACBBD300A55D4C /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		6B48020C2FACBBD300A55D4C /* NotesViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModelFactory.swift; sourceTree = "<group>"; };
+		6B48020D2FACBBD300A55D4C /* TriAheadsTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriAheadsTheme.swift; sourceTree = "<group>"; };
+		6B48020E2FACBBD300A55D4C /* NoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRowView.swift; sourceTree = "<group>"; };
+		6B48020F2FACBBD300A55D4C /* NoteEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditView.swift; sourceTree = "<group>"; };
+		6B4802102FACBBD300A55D4C /* LicensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicensesView.swift; sourceTree = "<group>"; };
+		6B4802112FACBBD300A55D4C /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,9 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				6B47F9A32FACBBD100A55D4C /* Products */,
+				6B4803012FACBBD300A55D4C /* Domain */,
+				6B4803022FACBBD300A55D4C /* Data */,
+				6B4803032FACBBD300A55D4C /* Presentation */,
 				6B47F9AB2FACBBD200A55D4C /* Assets.xcassets */,
 				6B47F9A72FACBBD100A55D4C /* ContentView.swift */,
-				6B47F9A92FACBBD100A55D4C /* Item.swift */,
 				6B47F9A52FACBBD100A55D4C /* ShareLaterApp.swift */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +83,116 @@
 				6B47F9A22FACBBD100A55D4C /* ShareLater.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4803012FACBBD300A55D4C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				6B4803042FACBBD300A55D4C /* Entities */,
+				6B4803052FACBBD300A55D4C /* Interfaces */,
+				6B4803062FACBBD300A55D4C /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6B4803022FACBBD300A55D4C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6B4803072FACBBD300A55D4C /* DataSources */,
+				6B4803082FACBBD300A55D4C /* Mappings */,
+				6B4803092FACBBD300A55D4C /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6B4803032FACBBD300A55D4C /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				6B48030A2FACBBD300A55D4C /* Notes */,
+				6B48030B2FACBBD300A55D4C /* Shared */,
+				6B48030C2FACBBD300A55D4C /* Licenses */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		6B4803042FACBBD300A55D4C /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				6B4802012FACBBD300A55D4C /* Note.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6B4803052FACBBD300A55D4C /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				6B4802022FACBBD300A55D4C /* NoteRepository.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		6B4803062FACBBD300A55D4C /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				6B4802032FACBBD300A55D4C /* AddNoteUseCase.swift */,
+				6B4802042FACBBD300A55D4C /* DeleteNoteUseCase.swift */,
+				6B4802052FACBBD300A55D4C /* FetchNotesUseCase.swift */,
+				6B4802062FACBBD300A55D4C /* UpdateNoteUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		6B4803072FACBBD300A55D4C /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				6B4802072FACBBD300A55D4C /* SwiftDataNoteRecord.swift */,
+				6B4802082FACBBD300A55D4C /* NoteLocalDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		6B4803082FACBBD300A55D4C /* Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				6B4802092FACBBD300A55D4C /* NoteMapping.swift */,
+			);
+			path = Mappings;
+			sourceTree = "<group>";
+		};
+		6B4803092FACBBD300A55D4C /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6B48020A2FACBBD300A55D4C /* NoteRepositoryImpl.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6B48030A2FACBBD300A55D4C /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				6B48020B2FACBBD300A55D4C /* NotesViewModel.swift */,
+				6B48020C2FACBBD300A55D4C /* NotesViewModelFactory.swift */,
+				6B48020E2FACBBD300A55D4C /* NoteRowView.swift */,
+				6B48020F2FACBBD300A55D4C /* NoteEditView.swift */,
+				6B4802112FACBBD300A55D4C /* NoteListView.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		6B48030B2FACBBD300A55D4C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6B48020D2FACBBD300A55D4C /* TriAheadsTheme.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6B48030C2FACBBD300A55D4C /* Licenses */ = {
+			isa = PBXGroup;
+			children = (
+				6B4802102FACBBD300A55D4C /* LicensesView.swift */,
+			);
+			path = Licenses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +267,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B48010D2FACBBD300A55D4C /* TriAheadsTheme.swift in Sources */,
+				6B4801072FACBBD300A55D4C /* SwiftDataNoteRecord.swift in Sources */,
+				6B48010A2FACBBD300A55D4C /* NoteRepositoryImpl.swift in Sources */,
+				6B48010E2FACBBD300A55D4C /* NoteRowView.swift in Sources */,
+				6B4801112FACBBD300A55D4C /* NoteListView.swift in Sources */,
+				6B48010C2FACBBD300A55D4C /* NotesViewModelFactory.swift in Sources */,
+				6B4801102FACBBD300A55D4C /* LicensesView.swift in Sources */,
 				6B47F9A82FACBBD100A55D4C /* ContentView.swift in Sources */,
-				6B47F9AA2FACBBD100A55D4C /* Item.swift in Sources */,
+				6B4801052FACBBD300A55D4C /* FetchNotesUseCase.swift in Sources */,
+				6B4801022FACBBD300A55D4C /* NoteRepository.swift in Sources */,
+				6B48010B2FACBBD300A55D4C /* NotesViewModel.swift in Sources */,
+				6B4801082FACBBD300A55D4C /* NoteLocalDataSource.swift in Sources */,
+				6B4801012FACBBD300A55D4C /* Note.swift in Sources */,
+				6B4801092FACBBD300A55D4C /* NoteMapping.swift in Sources */,
+				6B4801062FACBBD300A55D4C /* UpdateNoteUseCase.swift in Sources */,
+				6B4801032FACBBD300A55D4C /* AddNoteUseCase.swift in Sources */,
+				6B48010F2FACBBD300A55D4C /* NoteEditView.swift in Sources */,
+				6B4801042FACBBD300A55D4C /* DeleteNoteUseCase.swift in Sources */,
 				6B47F9A62FACBBD100A55D4C /* ShareLaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
