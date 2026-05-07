@@ -48,7 +48,6 @@ playground.xcworkspace
 # Carthage/Checkouts
 
 Carthage/Build/
-
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo.
@@ -60,3 +59,5 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+.idea/
